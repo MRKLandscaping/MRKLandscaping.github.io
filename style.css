@@ -89,6 +89,13 @@ div.businessTimes {
     padding-right: 32.5%;
 }
 
+/* Contact Information */
+div.contactInformation {
+    float: right;
+    padding-right: 32.5%;
+    padding-top: 32.5%;
+}
+/* Google Maps location radius */
 div.MRKLocation {
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
