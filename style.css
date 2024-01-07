@@ -122,6 +122,12 @@ a#contactLink {
 a#contactLink:hover h4 {
     font-weight: bolder;
 }
+
+/* Gallery carousel */
+.col-md-5 {
+    margin: 0 auto;
+    padding-top: 30px;
+}
 /* Mobile customizations */
 @media screen and (max-width: 915px) {
     iframe {
