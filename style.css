@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    text-decoration: none;
 }
 
 /* Styling the navigation bar */
@@ -56,10 +57,12 @@ footer {
     text-align: center;
 }
 
+/* Footer text */
 footer h4 {
     color: black;
 }
 
+/* Footer hyperlink */
 footer a {
     color: black;
     text-decoration: none;
@@ -84,7 +87,7 @@ img.d-block.w-100 {
 }
 
 /* Opening and closing times */
-div.businessTimes {
+div.information {
     float: right;
     padding-right: 32.5%;
 }
@@ -96,7 +99,6 @@ div.contactInformation {
     padding-top: 32.5%;
 }
 
-
 /* Google Maps location radius */
 div.MRKLocation {
     padding-bottom: 50px;
@@ -107,6 +109,19 @@ div#mobileSeparator {
     visibility: hidden;
 }
 
+/* Clickable email and phone number */
+a#contactLink {
+    color: black;
+    text-decoration: none;
+    display: block; /* Make each link a block element to appear on a new line */
+    margin: 5px 0;  /* Add some spacing between links */
+    font-family: 'Lato', sans-serif;
+}
+
+/* Change the text boldness when hovering */
+a#contactLink:hover h4 {
+    font-weight: bolder;
+}
 /* Mobile customizations */
 @media screen and (max-width: 915px) {
     iframe {
@@ -114,7 +129,7 @@ div#mobileSeparator {
         padding-top: 25px;
     }
 
-    div.businessTimes {
+    div.information {
         padding-right: 22.50%;
     }
 
