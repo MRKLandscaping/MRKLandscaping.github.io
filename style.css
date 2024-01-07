@@ -102,6 +102,11 @@ div.MRKLocation {
     padding-bottom: 50px;
 }
 
+/* Hide separator from desktop view */
+div#mobileSeparator {
+    visibility: hidden;
+}
+
 /* Mobile customizations */
 @media screen and (max-width: 915px) {
     iframe {
@@ -111,5 +116,9 @@ div.MRKLocation {
 
     div.businessTimes {
         padding-right: 22.50%;
+    }
+
+    div#mobileSeparator {
+        visibility: visible;
     }
 }
