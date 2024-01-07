@@ -103,7 +103,7 @@ div.MRKLocation {
 }
 
 /* Mobile customizations */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 915px) {
     iframe {
         width: 100%;
         padding-top: 25px;
