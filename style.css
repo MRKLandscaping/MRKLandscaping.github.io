@@ -1,0 +1,94 @@
+/* Importing font styles*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Resetting default margin and padding for the body */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Styling the navigation bar */
+nav {
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+/* Centering the text within the navigation bar */
+nav a {
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the text boldness when hovering */
+nav a:hover {
+    font-weight: bolder;
+}
+
+/* Indicating what page your currently located in */
+nav a.active {
+    font-weight: bolder;
+}
+
+/* Centering the smaller image above the text */
+img.companyLogo {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0; /* Adjust the padding as needed for spacing between the image and text */
+    max-width: 150px; /* Adjust the max-width as needed for the smaller image */
+    height: auto;
+}
+
+/* Styling the banner image */
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #F7F6F6;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h4 {
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    display: block; /* Make each link a block element to appear on a new line */
+    margin: 5px 0;  /* Add some spacing between links */
+    font-family: 'Lato', sans-serif;
+}
+
+/* Change the text boldness when hovering */
+footer a:hover {
+    font-weight: bolder;
+}
+
+/* Indicating what page your currently located in */
+footer a.active {
+    font-weight: bolder;
+}
+
+/* Carousel Images */
+img.d-block.w-100 {
+    object-fit: cover !important;
+}
+
+/* Opening and closing times */
+div.businessTimes {
+    float: right;
+    padding-right: 32.5%;
+}
+
+div.MRKLocation {
+    padding-bottom: 150px;
+}
